@@ -113,6 +113,18 @@ class AdminBar extends Component {
                     </li>
                   </ul>
                 </li>
+                <li className="nav-item">
+                  <a href="/admin/widgets" className="nav-link">
+                    <i className="nav-icon fas fa-hashtag" />
+                    <p>Widgets</p>
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href="/admin/forms" className="nav-link">
+                    <i className="nav-icon fab fa-wpforms" />
+                    <p>Forms</p>
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
